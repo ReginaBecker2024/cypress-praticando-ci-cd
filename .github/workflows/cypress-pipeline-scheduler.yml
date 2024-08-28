@@ -3,13 +3,13 @@ name: Executar Pipeline Cypress - Scheduler
 
 # Momento de Execução
 on:
-  schedule:
-  # Cron recebe 5 parametros Minuto/Hour/Day/Month/Day of Week
+# Cron recebe 5 parametros Minuto/Hour/Day/Month/Day of Week
   # * Todos
   # Lista: 2,10,4,5
   # Range: 4-6 Exemplo dia da Semana: Seg a Sexta: 1-5
   # Step: 20/15 Inicia no minuto 20 a cada 15 minutos
-    - cron: 0 14 * * WED # Run every Sunday at midnight
+  schedule:  
+    - cron: 0 1-4 * * 1-5
 
 jobs: 
   # Definições para Rodar os Testes na Pipeline
