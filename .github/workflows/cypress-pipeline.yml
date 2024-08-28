@@ -1,0 +1,32 @@
+# Nome da Pipeline
+name: Executar Pipeline Cypress
+
+# Momento de Execução
+on: 
+  pull_requests:
+    branches: [master]
+
+jobs: 
+  # Definições para Rodar os Testes na Pipeline
+  cypress-run:
+    # Máquina de Execução
+    runs-on: ubuntu-latest
+
+    # Roteiro de Execução dos Testes
+    steps: 
+      - name: Checkout/Clone do Projeto
+        # Utilizar Ação definida
+        uses: actions/checkout@v4
+
+      # Execução no Terminal
+      - name: Execução Terminal
+        run: echo Regina
+
+      # Execução e Configuração do Projeto
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+        with:
+          record: true
+        env:
+          # GitHub token 
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
