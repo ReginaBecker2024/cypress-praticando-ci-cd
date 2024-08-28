@@ -1,26 +1,28 @@
-# Git Bash acessar projeto no vs code
+# Git Bash 
+## Acessar projeto VS Code
 code .
 
-# Instalando Node.js
+# Instalar Node.js
 npm init -y
 
-# Instalando Cypress
+# Instalar Cypress
 npm install cypress
 
-# Projeto existente rodar cypress recria arquivos package-lock.json
+# Projeto existente 
+## Recria arquivos package-lock.json
 npm install
 
 # Iniciar o Cypress
 ## Força instalação existente
 npx cypress install --force
 
-# Confirmar instalação do Cypress
+# Confirmar instalação Cypress
 npx cypress verify
 
 # Abrir Cypress
 npx cypress open
 
-# Instale o Faker
+# Instalar Faker
 npm install @faker-js/faker
 
 # Instalar Relatorio
@@ -30,7 +32,7 @@ npm i --save-dev cypress-mochawesome-reporter
 ## Incluir a linha no e2e.js
 import 'cypress-mochawesome-reporter/register';
 
-# Rodar no Terminal
+# Rodar Terminal
 npx cypress run
 
 # Cypress Runs
