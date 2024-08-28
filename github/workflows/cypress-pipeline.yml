@@ -29,4 +29,4 @@ jobs:
           record: true
         env:
           # GitHub token 
-          CYPRESS_RECORD_KEY: ${{ secrets.GITHUB_CYPRESS_RECORD_KEY }}
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
