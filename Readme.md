@@ -38,6 +38,9 @@ npx cypress run
 # Cypress Runs
 ## Exetar no Terminal
 npx cypress run --record --key a83d1090-8742-4f5d-92f7-264159a2babf
+npx cypress run --record --key a83d1090-8742-4f5d-92f7-264159a2babf
+npx cypress run --record --key ff56ffcb-f444-4656-9bba-cdc38f51a460
+npx cypress run --record --key b5e722e1-5daf-495d-90e4-2f7ddab01f9c
 
 # Git
 https://stackoverflow.com/questions/70179719/git-error-src-refspec-main-does-not-match-any
@@ -50,3 +53,10 @@ https://stackoverflow.com/questions/70179719/git-error-src-refspec-main-does-not
 * git push
 * git push --set-upstream origin main
 * git push -u origin main
+
+# Configurar Branch
+git checkout -b feature/create-pipeline-file
+
+# Definições Actions
+https://github.com/marketplace/actions/checkout
+https://github.com/marketplace/actions/cypress-io
