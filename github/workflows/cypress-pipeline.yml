@@ -2,9 +2,9 @@
 name: Executar Pipeline Cypress
 
 # Momento de Execução
-on: 
-  pull_requests:
-    branches: [master]
+on:
+  pull_request:
+    branches: [ "main" ]
 
 jobs: 
   # Definições para Rodar os Testes na Pipeline
@@ -18,9 +18,9 @@ jobs:
         # Utilizar Ação definida
         uses: actions/checkout@v4
 
-      # Execução no Terminal
+      # Instalar Dependências
       - name: Execução Terminal
-        run: echo Regina
+        run: npm install
 
       # Execução e Configuração do Projeto
       - name: Cypress run
@@ -29,4 +29,4 @@ jobs:
           record: true
         env:
           # GitHub token 
-          CYPRESS_RECORD_KEY: ${{ secrets.GITHUB_CYPRESS_RECORD_KEY }}
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
