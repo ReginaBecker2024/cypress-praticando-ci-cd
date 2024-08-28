@@ -20,7 +20,7 @@ jobs:
 
       # Execução no Terminal
       - name: Execução Terminal
-        run: echo Regina
+        run: npm install
 
       # Execução e Configuração do Projeto
       - name: Cypress run
