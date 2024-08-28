@@ -67,3 +67,5 @@ https://github.com/marketplace/actions/cypress-io
 * git checkout -b feature/run-pipeline
 * git add .
 * git commit -m 'Atualizações'
+* git push
+* git push --set-upstream origin feature/run-pipeline
