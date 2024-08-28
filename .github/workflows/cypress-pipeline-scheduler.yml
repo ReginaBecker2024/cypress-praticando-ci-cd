@@ -9,7 +9,7 @@ on:
   # Range: 4-6 Exemplo dia da Semana: Seg a Sexta: 1-5
   # Step: 20/15 Inicia no minuto 20 a cada 15 minutos
   schedule:  
-    - cron: 0 1-4 * * 1-5
+    - cron: 0 1-20 * * 1-5
 
 jobs: 
   # Definições para Rodar os Testes na Pipeline
