@@ -36,11 +36,12 @@ npx cypress run --record --key a83d1090-8742-4f5d-92f7-264159a2babf
 Exetar no Terminal
 
 # Git
+https://stackoverflow.com/questions/70179719/git-error-src-refspec-main-does-not-match-any
 git init 
 git remote add origin https://github.com/ReginaBecker2024/cypress-praticando-ci-cd.git
 git add .
-git commit -m "primeiro commit" 
+git commit -am "Criando Projeto" 
 git branch -M main 
 git push
-git push --set-upstream origin master
+git push --set-upstream origin main
 git push -u origin main
