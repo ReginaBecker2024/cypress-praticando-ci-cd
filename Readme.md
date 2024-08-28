@@ -79,3 +79,7 @@ https://github.com/marketplace/actions/cypress-io
 
 # Action Upload Build Artifact
 * https://github.com/marketplace/actions/upload-a-build-artifact
+
+# Agendar Pipeline
+* https://github.com/marketplace/actions/scheduled-milestones
+ * https://crontab.guru/
