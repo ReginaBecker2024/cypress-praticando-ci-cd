@@ -18,9 +18,9 @@ jobs:
         # Utilizar Ação definida
         uses: actions/checkout@v4
 
-      # Execução no Terminal
+      # Instalar Dependências
       - name: Execução Terminal
-        run: echo Regina
+        run: npm install
 
       # Execução e Configuração do Projeto
       - name: Cypress run
