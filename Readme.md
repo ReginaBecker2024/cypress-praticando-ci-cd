@@ -76,3 +76,6 @@ https://github.com/marketplace/actions/cypress-io
 # Atualizar local
 * git checkout main
 * git pull
+
+# Action Upload Build Artifact
+* https://github.com/marketplace/actions/upload-a-build-artifact
