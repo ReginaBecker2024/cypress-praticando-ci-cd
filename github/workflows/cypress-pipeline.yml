@@ -4,7 +4,7 @@ name: Executar Pipeline Cypress
 # Momento de Execução
 on: 
   pull_requests:
-    braches: [master]
+    branches: [master]
 
 jobs: 
   # Definições para Rodar os Testes na Pipeline
