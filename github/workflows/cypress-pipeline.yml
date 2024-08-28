@@ -18,7 +18,7 @@ jobs:
         # Utilizar Ação definida
         uses: actions/checkout@v4
 
-      # Execução no Terminal
+      # Atualizar as Dependências
       - name: Execução Terminal
         run: npm install
 
