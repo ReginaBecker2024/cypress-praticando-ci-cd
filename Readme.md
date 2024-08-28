@@ -60,3 +60,10 @@ git checkout -b feature/create-pipeline-file
 # Definições Actions
 https://github.com/marketplace/actions/checkout
 https://github.com/marketplace/actions/cypress-io
+
+# 
+* git checkout main
+* git pull
+* git checkout -b feature/run-pipeline
+* git add .
+* git commit -m 'Atualizações'
