@@ -60,3 +60,10 @@ git checkout -b feature/create-pipeline-file
 # Definições Actions
 https://github.com/marketplace/actions/checkout
 https://github.com/marketplace/actions/cypress-io
+
+# Clone Projeto
+* git checkout -b feature/create-pipeline-file
+* git add .
+* git commit -m 'Criação do arquivo de pipeline'
+* git push 
+* git push --set-upstream origin feature/create-pipeline-file
