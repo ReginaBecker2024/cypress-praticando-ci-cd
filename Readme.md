@@ -73,6 +73,6 @@ https://github.com/marketplace/actions/cypress-io
 * Merge pull request
 * Confirm Merge
 
-* Atualizar local
+# Atualizar local
 * git checkout main
 * git pull
